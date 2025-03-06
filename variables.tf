@@ -12,7 +12,7 @@ variable "description" {
 
 variable "enabled" {
   description = "Specifies whether the Runbook is enabled. Defaults to true."
-  default = true
+  default     = true
 }
 
 variable "expiry_time" {
@@ -25,12 +25,12 @@ variable "location" {
 
 variable "log_progress" {
   description = "Specifies whether to log the progress of the Runbook. Defaults to true."
-  default = true
+  default     = true
 }
 
 variable "log_verbose" {
   description = "Specifies whether to log verbose output of the Runbook. Defaults to true."
-  default = true
+  default     = true
 }
 
 variable "name" {
@@ -43,7 +43,7 @@ variable "resource_group_name" {
 
 variable "run_on_worker_group" {
   description = "Specifies the worker group on which the Runbook should run. Defaults to null."
-  default = null
+  default     = null
 }
 
 variable "runbook_type" {
